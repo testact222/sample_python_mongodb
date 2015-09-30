@@ -30,12 +30,11 @@ script:
   - echo $var and $name 
 
 
-
 notifications:
   email:
      recipients:
         - vidya@shippable.com
-        - exampletwo@org.com
+        - testact222@rediffmail.com
      on_success: change
      on_failure: always
   irc:
